@@ -1,0 +1,49 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Making sure the page takes up the full height of the viewport */
+html, body, .container {
+    height: 100%;
+}
+
+/* Vertically centering the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the input group */
+.input-group {
+    width: 100%;
+}
+
+/* Styling the textarea */
+.form-control {
+    border-radius: 0;
+    border-right: none;
+}
+
+/* Styling the button */
+.btn {
+    border-radius: 0;
+}
+
+/* Adding some padding to the response and source divs */
+#response, #source {
+    padding: 10px;
+}
+
+/* Styling the response and source divs */
+#response {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#source {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
