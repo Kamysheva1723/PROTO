@@ -7,7 +7,7 @@ load_dotenv()
 # Указываем имя переменной среды, значение которой вы хотите получить
 variable_name = "OPENAI_API_KEY"
 
-new_value = "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"
+new_value = ""
 
 # Устанавливаем значение переменной среды
 os.environ[variable_name] = new_value
